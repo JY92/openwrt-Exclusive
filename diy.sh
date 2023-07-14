@@ -23,7 +23,7 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 # sed -i '60s/ITdesk01/firkerword/' ./package/jd_openwrt_script/files/jd_openwrt_script
-sed -i 's/bootstrap/Argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
 
 rm -rf ./feeds/luci/themes/luci-theme-argon
 rm -rf ./feeds/luci/applications/luci-app-wrtbwmon
