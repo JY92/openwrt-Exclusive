@@ -51,8 +51,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 # git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
 # git clone -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon-18.06
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
+git clone https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
@@ -65,5 +65,6 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 # git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
 # git clone https://github.com/yichya/luci-app-xray.git package/luci-app-xray
+git clone https://github.com/linkease/istore package/luci-app-store
 
 
